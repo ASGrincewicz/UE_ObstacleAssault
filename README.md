@@ -11,9 +11,9 @@ I will be making notes on the similarities between Unreal and Unity since I've b
 
 <h2>Unity Counterparts in Unreal:</h2>
 <ul>
-  -<b>BeginPlay()</b> is equivalent to the <b>Start()</b> method in Unity.<br>
--Tick is the same as Update in Unity.<br>
--UPROPERTY(EditAnywhere) is like [SerializedField].<br>
--FVector is equivalent to Vector3 in Unity.
--DeltaTime is equivalent to Time.deltaTime.
+ <li> <b>BeginPlay()</b> is equivalent to the <b>Start()</b> method in Unity.
+<li>Tick is the same as Update in Unity.
+<li>UPROPERTY(EditAnywhere) is like [SerializedField].
+<li>FVector is equivalent to Vector3 in Unity.
+<li>DeltaTime is equivalent to Time.deltaTime.
 </ul>
