@@ -15,4 +15,5 @@ I will be making notes on the similarities between Unreal and Unity since I've b
 -Tick is the same as Update in Unity.<br>
 -UPROPERTY(EditAnywhere) is like [SerializedField].<br>
 -FVector is equivalent to Vector3 in Unity.
+-DeltaTime is equivalent to Time.deltaTime.
 </ul>
