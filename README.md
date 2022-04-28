@@ -14,4 +14,5 @@ I will be making notes on the similarities between Unreal and Unity since I've b
   -<b>BeginPlay()</b> is equivalent to the <b>Start()</b> method in Unity.<br>
 -Tick is the same as Update in Unity.<br>
 -UPROPERTY(EditAnywhere) is like [SerializedField].<br>
+-FVector is equivalent to Vector3 in Unity.
 </ul>
