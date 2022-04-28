@@ -19,13 +19,16 @@ I will be making notes on the similarities between Unreal and Unity since I've b
   <ul>
     <li>These methods run every frame.
   </ul>
-<li>UPROPERTY(EditAnywhere) is like [SerializedField].
+<li>UPROPERTY() is like [SerializedField].
   <ul>
-    <li>Exposes a variable in the editor.
+  	<li>Exposes a variable in the editor.
+    	<li> UPROPERTY(EditAnywhere) allows editing.
+    	<li> UPROPERTY(VisibleAnywhere) only shows variable.
+    	<li> UPROPERTY(Catergory = "Example") is like the [Header("Example"] attribute in Unity.
   </ul>
 <li>FVector is equivalent to Vector3 in Unity.
   <ul>
-    <li>Structs consisting of 3 floats.
+    	<li>Structs consisting of 3 floats.
   </ul>
 <li>DeltaTime is equivalent to Time.deltaTime.
 </ul>

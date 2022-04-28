@@ -33,7 +33,10 @@ void AMovingPlatform::Tick(float DeltaTime)
 	SetActorLocation(CurrentLocation);
 	//Send platform back if moved too far
 		//Check how far platform moved
+	DistanceMoved =  FVector::Dist(StartLocation, CurrentLocation);
 		//Reverse direction if reached limit
+
+	
 
 }
 
