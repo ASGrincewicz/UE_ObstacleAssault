@@ -14,15 +14,18 @@ class OBJECTASSAULT_API AMovingPlatform : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMovingPlatform();
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
+private:
+	void MovePlatform(float DeltaTime);
+	void RotatePlatform(float DeltaTime);
+	bool ShouldPlatformReturn();
+	float GetDistanceMoved();
 	FVector StartLocation;
 
 	UPROPERTY(EditAnywhere, Category= "Moving Platform")
@@ -30,8 +33,5 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform")
 	float MoveDistance = 100;
-
-private:
-	void MovePlatform();
 
 };
