@@ -31,4 +31,5 @@ I will be making notes on the similarities between Unreal and Unity since I've b
     	<li>Structs consisting of 3 floats.
   </ul>
 <li>DeltaTime is equivalent to Time.deltaTime.
+<li>UE_Log(LogTemp,Display,TEXT("Text Here")); is like Debug.Log("Text here");  
 </ul>
